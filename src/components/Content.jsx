@@ -120,7 +120,7 @@ export function Content() {
             value={citacao}
             className={styles.formTextArea}
           />
-          <button className={styles.formButton} type="submit">Enviar mensagem</button>
+          <button className={styles.formButton} type="submit">Cadastrar</button>
           {success && <p>Cadastro realizado com sucesso.</p>}
         </form>
       </div>
