@@ -22,7 +22,7 @@ export function Content() {
       setRepositories(response.data)
     }
     getData()
-  }, [])n
+  }, [])
 
   function handleInputValueNome(event) {
     setNome(event.target.value)
